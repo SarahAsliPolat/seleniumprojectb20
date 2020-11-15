@@ -19,6 +19,13 @@ public class ReadTextFile {
 
         }
 
+        String path2= "gardes.csv";
+        File file2 = new File(path2);
+        Scanner scanner2 =new Scanner(file2);
+
+        while (scanner2.hasNext()){
+            System.out.println(scanner2.nextLine());
+        }
 
 
     }
